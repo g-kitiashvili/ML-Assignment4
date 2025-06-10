@@ -1,4 +1,3 @@
-# ML-Assignment4
 # Facial Expression Recognition Challenge
 
 ## Project Overview
@@ -11,6 +10,7 @@ This repository contains my solution for the Kaggle Facial Expression Recognitio
 - **Public Test Set**: 3,589 examples
 
 ## Project Structure
+```
 fer-challenge/
 ├── README.md
 ├── experiment_01_BasicNN.ipynb         # Baseline: Why CNNs are better than NNs
@@ -23,7 +23,7 @@ fer-challenge/
 ├── experiment_08_LearningRate_Analysis.ipynb # Compare different learning rates
 ├── experiment_09_Optimizer_Comparison.ipynb # SGD vs Adam vs RMSprop
 └── experiment_10_BatchSize_Impact.ipynb # Small vs Large batch sizes
-
+```
 
 ## Experimental Approach and Decision Rationale
 
@@ -352,3 +352,9 @@ All experiments are logged to Weights & Biases with:
 3. Place kaggle.json in Google Drive
 4. Run notebooks in numerical order
 5. View results on W&B dashboard
+
+## Requirements
+- PyTorch
+- Weights & Biases account
+- Kaggle account for dataset access
+- Google Colab (free GPU)
